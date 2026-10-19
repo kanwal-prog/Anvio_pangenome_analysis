@@ -1,6 +1,6 @@
 # Anvi'o pangenome analysis of *B. fragilis* and *E. coli*
 
-Pangenomes, ANI, AMR / virulence / mobile elements and secretion systems for
+Pangenomes, ANI, and AMR / virulence / mobile elements for
 4 *Bacteroides fragilis* and 3 *Escherichia coli* genomes.
 
 The CAZyme (dbCAN) part of the project is a separate repository:
@@ -27,8 +27,6 @@ bash pangenome_analysis/anvio_pangenome.sh
 | `ani_heatmap.py` | ANI heatmap per species: `python pangenome_analysis/ani_heatmap.py bfragilis` |
 | `amr_virulence_hgt_commands.sh` | AMR, virulence, plasmid and mobile-element hits on the pangenome (run section by section) |
 | `HGT_map_hits_to_clusters.py` | puts those hits on gene clusters: core, accessory or singleton |
-| `secretion_pipeline.sh` | secretion systems (TXSScan, ConjScan, ...) and AMR (RGI/CARD) |
-| `secretio_system_detection_in_bacteria/installation.sh` | install TXSScan / MacSyFinder |
 
 ## Results (on the computer only, not on GitHub)
 
